@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/mLinear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <EditText
+        android:id="@+id/df_show_1"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:text=""
+        android:gravity="end|bottom"
+        android:lines="1"
+        android:inputType="text"
+        android:layout_weight="2"
+        android:background="#400040"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/df_show_2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:text=""
+        android:gravity="end|bottom"
+        android:lines="1"
+        android:layout_weight="2"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="60dp"
+        android:textAllCaps="false" />
+
+    <LinearLayout
+        android:id="@+id/df_line1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/df_def"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="set y"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_xnum"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="xNum=1"
+            android:textSize="12dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/df_x"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="x(i)"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_dex"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="set x(i)"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_ensure"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="ensure"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/df_line2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/df_sin_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="sin"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_cos_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="cos"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_tan_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="tan"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_delete_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="del"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_clear_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="clear"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/df_line3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/df_factorial_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="x!"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_left_bracket_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="("
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_right_bracket_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text=")"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_ln_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="ln x"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_multiply_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="*"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/df_df_line4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/df_number7_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="7"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_number8_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="8"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_number9_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="9"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_lg_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="lg x"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_divide_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="/"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/df_line5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/df_number4_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="4"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_number5_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="5"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_number6_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="6"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_power_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="x^y"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_add_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="+"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/df_line6"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/df_number1_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="1"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_number2_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="2"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_number3_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="3"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_ex_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="e"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_subtract_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="-"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/df_line7"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/df_percent_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="%"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_number0_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_point_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="."
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_PI_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="π"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/df_equal_2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="="
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>

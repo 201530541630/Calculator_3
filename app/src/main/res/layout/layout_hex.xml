@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <EditText
+        android:id="@+id/hex_1"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:text=""
+        android:gravity="end|bottom"
+        android:lines="1"
+        android:inputType="text"
+        android:background="#400040"
+        android:textColor="#ffffff"
+        android:textSize="60dp"
+        android:layout_weight="1.8"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/hex_2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1.8"
+        android:background="#000000"
+        android:gravity="end|bottom"
+        android:lines="1"
+        android:text=""
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="60dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/hexnumber_C"
+            android:layout_height="match_parent"
+            android:layout_width="10dp"
+            android:text="C"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/hexnumber_D"
+            android:layout_height="match_parent"
+            android:layout_width="10dp"
+            android:text="D"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/hexnumber_E"
+            android:layout_height="match_parent"
+            android:layout_width="10dp"
+            android:text="E"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/hexnumber_F"
+            android:layout_height="match_parent"
+            android:layout_width="10dp"
+            android:text="F"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/hexnumber_8"
+            android:layout_height="match_parent"
+            android:layout_width="10dp"
+            android:text="8"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/hexnumber_9"
+            android:layout_height="match_parent"
+            android:layout_width="10dp"
+            android:text="9"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/hexnumber_A"
+            android:layout_height="match_parent"
+            android:layout_width="10dp"
+            android:text="A"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/hexnumber_B"
+            android:layout_height="match_parent"
+            android:layout_width="10dp"
+            android:text="B"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/hexnumber_4"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="4"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/hexnumber_5"
+            android:layout_height="match_parent"
+            android:layout_width="10dp"
+            android:text="5"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/hexnumber_6"
+            android:layout_height="match_parent"
+            android:layout_width="10dp"
+            android:text="6"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/hexnumber_7"
+            android:layout_height="match_parent"
+            android:layout_width="10dp"
+            android:text="7"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/hexnumber_0"
+            android:layout_height="match_parent"
+            android:layout_width="10dp"
+            android:text="0"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/hexnumber_1"
+            android:layout_height="match_parent"
+            android:layout_width="10dp"
+            android:text="1"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/hexnumber_2"
+            android:layout_height="match_parent"
+            android:layout_width="10dp"
+            android:layout_weight="1"
+            android:text="2"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/hexnumber_3"
+            android:layout_height="match_parent"
+            android:layout_width="10dp"
+            android:text="3"
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.24">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/from"
+                    android:layout_height="match_parent"
+                    android:layout_width="10dp"
+                    android:text="from hex:"
+                    android:background="#000000"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/from_hex"
+                    android:layout_height="match_parent"
+                    android:layout_width="10dp"
+                    android:text="10"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/hex_delete"
+                    android:layout_height="match_parent"
+                    android:layout_width="10dp"
+                    android:text="delete"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/to"
+                    android:layout_height="match_parent"
+                    android:layout_width="10dp"
+                    android:background="#000000"
+                    android:text="to hex:"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/to_hex"
+                    android:layout_height="match_parent"
+                    android:layout_width="10dp"
+                    android:text="10"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"/>
+
+
+                <Button
+                    android:id="@+id/hex_clear"
+                    android:layout_height="match_parent"
+                    android:layout_width="10dp"
+                    android:text="clear"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/hex_equal"
+            android:layout_height="match_parent"
+            android:layout_width="10dp"
+            android:layout_column="3"
+            android:text="="
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>
